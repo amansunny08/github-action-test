@@ -10,3 +10,5 @@ jobs:
              run: |
                 node -v
                 npm -v  
+                uptime
+                uname -a
