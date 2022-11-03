@@ -12,10 +12,11 @@ jobs:
                 npm -v  
                 uptime
                 uname -a
+                sleep 30
     run-window-command:
       runs-on: windows-latest
       steps:
-        - name: directory
+        - name: directory12
           run: Get-Location
         - name: directorylocation
           run: pwd
