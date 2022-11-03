@@ -15,6 +15,7 @@ jobs:
                 sleep 30
     run-window-command:
       runs-on: windows-latest
+      needs: ["run-shell-script"]
       steps:
         - name: directory12
           run: Get-Location
