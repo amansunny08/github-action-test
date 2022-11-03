@@ -5,8 +5,8 @@ jobs:
          runs-on: ubuntu-latest
          steps:
            - name: run echo command
-             run: echo "Hello World"
+             run: echo  "Hello World"
            - name: run multilple command
-            run: |
+             run: |
                 node -v
                 npm -v  
