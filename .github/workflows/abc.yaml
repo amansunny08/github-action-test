@@ -12,3 +12,11 @@ jobs:
                 npm -v  
                 uptime
                 uname -a
+    run-window-command:
+      runs-on: windows-latest
+      steps:
+        - name: directory
+          run: Get-Location
+        - name: directorylocation
+          run: pwd
+          shell: bash
