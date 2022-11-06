@@ -1,0 +1,13 @@
+name: sunday
+on: push
+jobs:
+    my-new-job:
+       runs-on: ubuntu-latest
+       steps:
+        - name: run echo command
+          run: echo "hello world"
+        - name: multiple command
+          run: |
+              ls
+              pwd
+              npn -v
